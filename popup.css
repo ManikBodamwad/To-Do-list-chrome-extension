@@ -1,0 +1,33 @@
+h1 {
+    color: #333;
+  }
+  
+  input[type="text"], input[type="date"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }

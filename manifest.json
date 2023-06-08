@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Task Scheduler Extension",
+    "version": "1.0",
+    "description": "A task scheduling and management tool",
+    "permissions": [
+      "storage"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Task Scheduler Extension"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
